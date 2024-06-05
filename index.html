@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./main.js" defer></script>
+</head>
+<body>
+    <h1>math Operation Table</h1>
+    <input type="number" id="number1" placeholder="Enter your number">
+    <select id="Operation">
+        <option value="add">add</option>
+        <option value="subtract">sub</option>
+        <option value="multiply">mul</option>
+        <option value="divide">div</option>
+    </select>
+    <button onclick="generateTable()">
+        Calculate
+    </button>
+    <table id="resultTable">
+        <thead>
+            <tr>
+                <th>number</th>
+                <th>Result</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</body>
+</html>
